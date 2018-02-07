@@ -8,6 +8,8 @@ App --> SDK
 SDK --> ProxyServer
 ProxyServer --> AgoraCloud
 ```
+![](proxy.png)
+
 * **Proxy** Socks5/UDP
 * **Shadowsocks** sslocal + ssserver
 
@@ -17,6 +19,7 @@ SDK -. socks/UDP .-> sslocal
 sslocal -. shadowsocks .-> ssserver
 ssserver -. agora .-> AgoraCloud
 ```
+![](shadowsocks.png)
 
 ## 安装脚本
 
